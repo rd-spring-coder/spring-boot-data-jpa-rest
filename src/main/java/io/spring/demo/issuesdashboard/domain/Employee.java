@@ -20,7 +20,7 @@ import javax.validation.constraints.Past;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 @Entity
-@Table(name = "employee")
+@Table(name = "employees")
 public class Employee {
 
 	@Id
